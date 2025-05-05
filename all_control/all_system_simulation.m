@@ -133,7 +133,7 @@ legend(["目標動翼角度" "動翼角度"])
 set(gca, 'fontsize', 10);
 
 subplot(3, 1, 3);
-plot(t, V, 'r') %グラフ1 モータ電圧の表示
+plot(t, V, 'r')                        % モータ電圧の表示
 ylim([-11 11]);
 grid on;
 xlabel('Time [s]');
